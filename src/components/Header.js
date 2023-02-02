@@ -1,8 +1,11 @@
 import React from "react";
 
-function Header(){
+function Header(props){
     return (
-<h1>JSX Demo</h1>
+        <header>
+            <h1>{props.name}</h1>
+        </header>
+
     );
 }
 
